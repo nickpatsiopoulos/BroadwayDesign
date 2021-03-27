@@ -1,0 +1,9 @@
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  float: left;
+  padding-left: 6px;
+}
