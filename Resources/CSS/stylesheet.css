@@ -3,8 +3,12 @@ body {
 }
 
 .title {
+  margin: 0;
   position: relative;
   background-image: url("../Images/the-flatiron-building.png");
+  background-position: center;
+  background-repeat: repeat-y;
+  align-items: center;
 }
 
 h1 {
@@ -29,7 +33,7 @@ h3 {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .title li {
@@ -40,14 +44,36 @@ h3 {
 
 #Designed {
   background-image: url("../Images/the-flatiron-building.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  color: white;
 }
 
-.footer ul {
+div.footerbar {
+  height: 30px;
+  background-color: dimgray;
+}
+
+ul.footer {
   list-style: none;
   padding-left: 0;
 }
 
-.footer li {
+a.footerlinks {
   float: left;
-  padding-right: 6px;
+  padding-right: 10px;
+  padding-top: 4px;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+
+a.copyright {
+  float: left;
+  padding-right: 10px;
+  padding-left: 4px;
+  padding-top: 11px;
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
 }
